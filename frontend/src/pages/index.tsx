@@ -1,3 +1,12 @@
+import { CountryList } from "@/components/CountryList";
+import { Form } from "@/components/Form";
+import { Box } from "@mui/material";
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+  return (
+    <Box sx={{ margin: 2 }}>
+      <Form />
+      <CountryList />
+    </Box>
+  );
 }
